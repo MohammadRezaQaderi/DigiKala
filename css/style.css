@@ -1,0 +1,299 @@
+/* Main tags */
+
+/* font input */
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../font/Yekan.eot'); /* IE9 Compat Modes */
+  src: url('../font/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/Yekan.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/Yekan.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/Yekan.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:'MyWebFont';
+	direction:rtl;
+	text-align:right;
+	background:#f5f5f5;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+/* Links */
+a{
+	color:black;
+	text-decoration:none;
+}
+
+a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+a:active{
+	color:black;
+	text-decoration:none;
+}
+/* End links */
+
+.container{
+	max-width:1900px;
+	width:100%;
+	display:block;
+	margin:0px auto;
+}
+
+/* Header classes */
+.header{
+	background: #fff;
+	width:100%;
+    /* width: calc(100% - 20px); */
+    padding: 15px;
+	position: sticky;
+	z-index: 9999;
+	top:0;
+}
+
+.header-logo{
+	float:right;
+	margin-top: 1%;
+}
+
+.header-search{
+	float:right;
+}
+
+.header-login{
+	font-family:'MyWebFont';
+	float:left;
+}
+
+.header-search{
+    float: right;
+	/* method1 - بهتره کمتر استفاده کنیم */
+    /* position: relative; */
+    /* right: 14px; */
+    /* top: 2px; */
+	
+	/* method 2 - بهتره ازین استفاده کنیم */
+    margin-right: 20px;
+    margin-top: 2px;
+	width:50%;
+	font-family:'MyWebFont';
+}
+
+.header-search-input{
+	font-family:'MyWebFont';
+    border: 0px;
+    background: #e6e6e6;
+    border-radius: 5px 0 0 5px;
+    padding: 12px 1px;
+    outline: 0px;
+	width:70%;
+	float:right;
+}
+
+.header-login button{
+	font-family:'MyWebFont';
+    border: 1px solid #b5b5b5;
+    padding: 12px 12px;
+    border-radius: 7px;
+    background: #fff;
+    color: #3c3c3c;
+}
+
+.header-search form{
+    position: relative;
+}
+
+.header-search-button{
+	font-family:'MyWebFont';
+    border: 0px;
+    background: #e6e6e6;
+	border-radius: 0 5px 5px 0;
+	padding: 12px 12px;
+	float:right;
+}
+
+.header-login-icon{
+	font-size: 20px;
+	padding: 0px 4px;
+	color: #3c3c3c;
+}
+/* End of headers */
+
+.nav-bar{
+	font-size: 14px;
+	width: 100%;
+	clear:both;
+	background: #fff;
+	z-index: 9999;
+	color: #3c3c3c;
+}
+
+.nav-bar-item{
+	margin-right: 0.5%;
+	float:right;
+	padding: 1%;
+}
+
+/* Slider classes */
+.slider-slide{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.slider-ads{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.pic{
+    width: 95%;
+    border-radius: 15px;
+}
+
+.slider{
+    width: 100%;
+    padding: 10px 5%;
+}
+
+.product{
+	width: 100%;
+    padding: 10px 5%;
+}
+
+.offer-pic {
+    width: 100%;
+}
+
+.offer{
+    background: #ef394e;
+    width: 100%;
+    padding: 20px 9%;
+}
+/* End of slider */
+
+/* Footer classes */
+.footer{
+	background: #fff;
+	width:100%;
+    padding: 15px;
+}
+
+.footer ul{
+	list-style-type: none;
+	margin-top: 4%;
+}
+
+.footer-pic{
+	width: 70%;
+	padding: 4px;
+}
+/* End of footer */
+
+/* For pics */
+.big-pic{
+	width: 95%;
+    border-radius: 15px;
+	position: relative;
+	right: 2%;
+}
+
+.small-pic{
+	width:20%;
+	height:50px;
+}
+
+/* Others */
+.hover-effect:hover{
+	border: 1px solid #8b8585;
+	box-shadow: 5px 10px 18px #8b8585;
+}
+
+.title-effect:hover{
+	border-bottom: 2px solid red;
+	background: rgba(0,0,0,0.3);
+}
+
+.white-input{
+	font-size:14px;
+	padding: 12px 20px;
+	width:60%;
+	background:white;
+	border-radius: 0 8px 8px 0;
+	border: 0.5px solid #8b8585;
+	outline: none;
+	font-family:'MyWebFont';
+}
+
+.point-button{
+	background: rgba(0,0,0,0);
+	border: 1px solid white;
+	color:white;
+	font-size:20px;
+	border-radius: 4px;
+	outline: none;
+	padding: 10px;
+	font-family:'MyWebFont';
+}
+
+.point-button:hover{
+	background: rgba(0,0,0,0.3);
+	padding: 12px;
+}
+
+.blue-button{
+	font-family:'MyWebFont';
+	font-size: 16px;
+    background: #00bfd6;
+	color:white;
+	border-radius: 8px 0 0 8px;
+	padding: 10px 24px;
+	outline: none;
+	border: 0.5px solid #00bfd6;
+}
+
+.blue-icon{
+	font-size: 40px;
+    color: #00bfd6;
+}
+
+.gray-icon{
+	font-size: 30px;
+    color: #4a5f73;
+	padding: 2%;
+}
+
+.gray-big-icon{
+	font-size: 30px;
+    background: #eceff1;
+	color:white;
+	border-radius: 50%;
+}
+
+/* Style for a div that fixes the box height */
+.clearfix{
+    height: 0px;
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.white-box{
+    background: #fff;
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+}
+
+.single-box {
+	left: -3%;
+    position: relative;
+}
